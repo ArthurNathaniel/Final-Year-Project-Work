@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif
+}
+
+body{
+    background-color: #fec107;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    background-color:navy;
+    height: 80px;
+}
+.logo{
+    color: #fff;
+    font-weight: bolder;
+}
+.nav__links ul li{
+    display: inline;
+    padding: 10px 20px;
+    /* font-size: 25px; */
+}
+.nav__links ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.heading{
+    text-align: center;
+    color: navy;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.wrapper{
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+
+}
+
+.wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fec107;
+    text-align: center;   
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field .input ,select {
+    width: 100%;
+    outline: none;
+    border: 3px solid navy;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .textare{
+    resize: none;
+    height: 125px;
+    width: 100%;
+    border: 3px solid navy;
+    font-size: 15PX;
+}
+
+.wrapper .form .input_field .btn{
+width: 100%;
+padding: 8px 10px;
+font-size: 15px;
+background-color: #fec107;
+color: #fff;
+font-weight: bolder;
+}
+.input_field{
+    margin: 10px;
+}
+button{
+    background-color: navy;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 1px 2px 3px #000;
+}
+
+button:hover{
+    background-color: #fec107;
+    color: #fff;
+    font-weight: 900;
+    box-shadow: 1px 2px 3px #000;
+}
+footer{ 
+    margin-top: auto;
+    background-color: navy;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+  }
+   .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  span{
+    color: #fec107;
+  }
+  .team p{
+    width:300px ;
+  }
+  .link ul li {
+    list-style: none;
+  }
+  .link ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+  }
+  .social ul li {
+    list-style: none;
+  }
+  .social ul li a{
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+  }
